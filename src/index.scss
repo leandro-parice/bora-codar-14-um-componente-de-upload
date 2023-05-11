@@ -28,7 +28,8 @@ body {
 
   .drop-area {
     display: block;
-    width: 440px;
+    width: 100%;
+    max-width: 440px;
     height: 160px;
     background: #f3f0ff;
     border: 1px dashed #c1b2fa;
@@ -67,7 +68,8 @@ body {
     align-items: center;
     flex-direction: column;
     gap: 12px;
-    width: 440px;
+    width: 100%;
+    max-width: 440px;
 
     .upload {
       background: #ffffff;

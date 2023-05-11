@@ -22,7 +22,7 @@ const Upload = ({ data, onClick }) => {
       setUnit("MB");
     }
 
-    const acceptedFiles = ["application/pdf", "image/png", "image/jpg", "text/plain"];
+    const acceptedFiles = ["application/pdf", "image/png", "image/jpg", "image/jpeg", "text/plain"];
     if (acceptedFiles.indexOf(data.type) === -1) {
       setCurrentStatus("error");
     } else {

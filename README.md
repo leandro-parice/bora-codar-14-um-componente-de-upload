@@ -25,7 +25,6 @@ See: [https://leandroparice-boracodar14.netlify.app/](https://leandroparice-bora
 ### Improvements
 
 - Responsive
-- Favicon
 - Filter by filename
 - Upload file
 - Accepted files
